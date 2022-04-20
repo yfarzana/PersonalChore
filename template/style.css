@@ -1,0 +1,11 @@
+/* As - Always needed, so we will add it to template*/
+
+/* Anytime we add any padding to any element, the padding can stretch the page, getting more than 100%, which force the horizontal scroll bar */
+html {
+    /* this prevents padding to include extra width to the page.*/
+    box-sizing: border-box;  
+}
+body {
+    margin: 0;
+    min-height: 100vh; /*full height of the entire Window that you are in */
+}
